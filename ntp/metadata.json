@@ -2,7 +2,7 @@
   "name": "ifro-ntp",
   "version": "0.1.0",
   "author": "ifro",
-  "summary": "Modulo para Instalar e Configurar o NTP",
+  "summary": "Modulo para instalar, configurar e manter o serviço NTP ativo",
   "license": "Apache-2.0",
   "source": "",
   "project_page": null,
