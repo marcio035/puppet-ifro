@@ -9,4 +9,3 @@ class	ntp::params {
 		default: { fail("sistema operacional desconhecido") }
 	}
 }
-include ntp::params

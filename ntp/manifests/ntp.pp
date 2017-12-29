@@ -14,4 +14,3 @@ service	{	'ntp':
 	require	=>	[Package['ntp']]
 }
 }
-	include ntp::ntp

@@ -46,4 +46,3 @@ class ntp {
   include ntp::ntp
   include ntp::params
 }
-include ntp
