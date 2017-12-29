@@ -1,4 +1,4 @@
-class	ifro_ntp::params {
+class	ntp::params {
 	$config_ntp_file = "/etc/ntp.conf"
 	$server_ntp_1 = "ntp.cais.rnp.br"
 	$server_ntp_2 = "a.st1.ntp.br"
@@ -9,4 +9,4 @@ class	ifro_ntp::params {
 		default: { fail("sistema operacional desconhecido") }
 	}
 }
-include ifro_ntp::params
+include ntp::params

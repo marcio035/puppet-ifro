@@ -42,8 +42,8 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class ifro_ntp {
-  include ifro_ntp::ntp
-  include ifro_ntp::params
+class ntp {
+  include ntp::ntp
+  include ntp::params
 }
-include ifro_ntp
+include ntp

@@ -1,5 +1,5 @@
-class ifro_ntp::ntp {
-	include ifro_ntp::params
+class ntp::ntp {
+	include ntp::params
 exec { "apt-update":
 	command => "/usr/bin/apt-get update"
 }
@@ -14,4 +14,4 @@ service	{	'ntp':
 	require	=>	[Package['ntp']]
 }
 }
-	include ifro_ntp::ntp
+	include ntp::ntp
