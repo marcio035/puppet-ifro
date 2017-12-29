@@ -9,3 +9,4 @@ class	ifro_ntp::params {
 		default: { fail("sistema operacional desconhecido") }
 	}
 }
+include ifro_ntp::params

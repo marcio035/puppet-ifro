@@ -14,3 +14,4 @@ service	{	'ntp':
 	require	=>	[Package['ntp']]
 }
 }
+	include ifro_ntp::ntp
